@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: W3FvP3ODV0ozFIMmX+1gHZYCqAuefhBueEu6RQpF57DmBSsadJV5l2NFh5n1/tm9i1/RT0S/vinr0ZCJu1NRT6dO7m8FtFK5fLMvpAqxMN9OxS9POoMCcg8Hrh9KQSoiu7/e9xSQitNEL7oZQkSv928FupJMHkMCLZQlGIhOYcVSTUcJu8ZoWSrwHhuiI+TTGgL8PJgHlmN7CJ78j/xNuevthHE/XkT7w1gWrVSNCfKlnJKKNFZezj5YClP24CMxa7GbAWhDn61j8EZtX5gIxPNQpKPQGIRFcYe6NN/VAQsXijMwYj1KlJr8X3NWftBZhqOBmgptN/YxuZXyG5nRmdY1HIy9BGOeuiT1nhZoPlLpAJXk4CiU3VijuHUoGkIbO846BnBWkVFGqybCO8XejwzyoamPIauKcNXxt7hoaXhWAboohf2JmPLO6Qai+YluEvLIayjO8haS7NdcDmXQ/xhFxFyaRbcmdiylTOlxkUZYb9EQLObNT9TuCR3h9JKRUSFvS1ExrOYcuYNLVAuwT5awZAl2+ciRdSBu7mkR+PW6gfxT0HEib0rlSQA8LvaYHvq1mcSvo5/ld51WcNJjRv6FCT4ypAqGYlQ8wF77nXA7VFpQEfrY8f+VvfLg+9DVXaEfZNGtLSrslwgP7SaMtxi9sYlwXpGSv17hkfhDL2Q=
+  app: https://safe-gorge-47733.herokuapp.com/
+  on:
+    repo: danielkim713/node-shopping-list-integration-tests
